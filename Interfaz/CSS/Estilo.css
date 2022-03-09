@@ -1,0 +1,343 @@
+* {
+    font-family: Helvetica;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.body {
+    background-color: #F1F1F1;
+}
+
+.banner {
+    width: 99%;
+    background-color: #0D74BF;
+    border: 0.5px solid white;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+.banner img {
+    margin: auto;
+    width: 100%;
+}
+
+.banner figure {
+    padding: 3%;
+    margin: auto;
+}
+
+.titulo {
+    width: 100%;
+    background-color: #0D74BF;
+    margin: auto;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.titulo h1 {
+    color: white;
+}
+
+
+/*Barra de navegacion*/
+
+.menu {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    background-color: #0D74BF;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    /*<--or center*/
+}
+
+.menu a {
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    margin: auto;
+}
+
+.menu ul li {
+    padding: 10px;
+    color: white;
+    width: 50%;
+}
+
+.menu ul li:over {
+    background-color: #0067B2;
+}
+
+
+/*-------------------------------------------------
+Se agrupa a la izquierda
+ -------------------------------------------------*/
+
+.diviIz {
+    float: left;
+    width: 50%
+}
+
+.articulo {
+    text-align: left;
+    margin-right: 0;
+}
+
+.foto1 img {
+    width: 120%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+
+/*-------------------------------------------------
+ todo queda orizontal
+ -------------------------------------------------*/
+
+.columnas {
+    text-align: left;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 4%;
+    padding: 1% 2%;
+    border-radius: 10px;
+    background-color: #ECF6E5;
+    /*Color de fondo*/
+}
+
+
+/*-------------------------------------------------
+Se agrupa a la izquierda
+ -------------------------------------------------*/
+
+.divDer {
+    float: left;
+    width: 50%;
+}
+
+
+/*-------------------------------------------------
+Pie de pagina o footer
+ -------------------------------------------------*/
+
+.piepagina {
+    clear: both;
+    background-color: #0D74BF;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    padding: 0% 0%;
+    color: white;
+}
+
+
+/*Tamaño de las imagenes del footer como la de insta o face*/
+
+.piepagina img {
+    width: 2%;
+    margin: auto;
+    padding-top: 0%
+}
+
+.sexionArticulos {
+    display: flex;
+}
+
+.columnas1 {
+    text-align: left;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5%;
+    padding: 1% 2%;
+    border-radius: 10px;
+    background-color: #ECF6E5;
+    border: 1px solid #9DE8B9;
+}
+
+.columnas1 article {
+    text-align: left;
+    padding: 2%;
+}
+
+.columna {
+    display: block;
+    width: 33%;
+    margin: 1% 1%;
+}
+
+.articulo img {
+    width: 75%;
+}
+
+
+/*****************************************/
+
+body,
+.modal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 500ms ease;
+}
+
+.cuadro {
+    width: 550px;
+    height: 400px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+    transition: all 500ms ease;
+    background: rgb(14, 118, 179);
+    text-align: center;
+}
+
+.cuadro label {
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.contenido {
+    background: cadetblue;
+    color: #000000;
+    text-align: center;
+    display: block;
+    font: bold 18px Arial, sans-serif;
+}
+
+
+/*********/
+
+.cuerpo {
+    background: cadetblue;
+    text-align: center;
+    display: list-item;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cuerpo label {
+    font-size: 20px;
+    color: black;
+}
+
+
+/***********************/
+
+.user {
+    background: skyblue;
+}
+
+.user figure {
+    margin: auto;
+}
+
+.user label {
+    color: green;
+    font-size: 50px;
+    text-align: right;
+    margin: auto;
+}
+
+.menuH {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    padding: 10px 15px;
+    text-align: right;
+}
+
+.menuH li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font: bold 16px arial, sans-serif;
+    background: cornflowerblue;
+}
+
+.menuH li:hover {
+    background: lightslategrey;
+}
+
+.saludo {
+    color: rgb(231, 240, 116);
+    font-size: 30px;
+    text-align: center;
+}
+
+.cuerpo {
+    margin: auto;
+    padding: 25px;
+}
+
+.cuerpo img {
+    margin: auto;
+}
+
+.cuerpo p {
+    text-align: center;
+    margin: 25px;
+}
+
+
+/*************************/
+
+.agrupar {
+    width: 100%;
+}
+
+.cuerpo {
+    text-align: center;
+}
+
+.tab {
+    padding: 50px;
+    width: 400px;
+    text-align: center;
+}
+
+.tab,
+td {
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: left;
+}
+
+thead {
+    font: bold 20px verdana, sans-serif;
+    text-align: center;
+    background: #cccccc;
+}
+
+
+/****************/
+
+.marco {
+    width: 400px;
+    height: 220px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+    transition: all 500ms ease;
+    background: rgb(14, 118, 179);
+}

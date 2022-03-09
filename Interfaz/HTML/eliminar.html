@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Roles</title>
+    <link rel="stylesheet" href="../CSS/Estilo.css">
+</head>
+
+<body>
+    <div class="agrupar">
+        <div class="user">
+
+            <figure>
+                <img src="file:///C:/Users/A/Documents/ADSI%201908306/Codigos%20de%20Interfaz%20Proyectos/Proyecto%20Lavanderia/img/Imagen2.png">
+            </figure>
+            <label>Administrador</label>
+        </div>
+
+        <nav class="menuH">
+            <ul>
+                <li><a href="inicioLogin.html">Inicio</a></li>
+                <li><a href="Intperfil.html">Perfil</a></li>
+                <li><a href="gestion.html">Gestion Usuario</a></li>
+                <li><a href="cambiarcontr.html">Herramientas</a></li>
+                <li><a href="editarper.html">Editar Datos</a></li>
+                <li><a href="../index.html">Salir</a></li>
+            </ul>
+        </nav>
+        <section class="cuerpo">
+            <h2>GESTIONAR USUARIO</h2>
+            <div class="boton">
+                <button><a href="registroOpe.html">Crear Usuario</a></button>
+            </div>
+            <div class="tab">
+                <table>
+                    <tr>
+                        <thead>
+                            <td>Usuario</td>
+                            <td>Roles</td>
+                            <td>Modificar</td>
+                            <td>Eliminar</td>
+                        </thead>
+                    </tr>
+                    <tr>
+                        <tbody>
+                            <td>Usuario 1</td>
+                            <td><a href="rol.html">Rol</a></td>
+                            <td><a href="modificar.html">Actualizar</a></td>
+                            <td><a href="eliminar.html">Borrar</a></td>
+                        </tbody>
+                    </tr>
+                    <tr>
+                        <tbody>
+                            <td>Usuario 2</td>
+                            <td><a href="rol.html">Rol</a></td>
+                            <td><a href="modificar.html">Actualizar</a></td>
+                            <td><a href="eliminar.html">Borrar</a></td>
+                        </tbody>
+                    </tr>
+                    <tr>
+                        <tbody>
+                            <td>Usuario 3</td>
+                            <td><a href="rol.html">Rol</a></td>
+                            <td><a href="modificar.html">Actualizar</a></td>
+                            <td><a href="eliminar.html">Borrar</a></td>
+                        </tbody>
+                    </tr>
+                    <tr>
+                        <tbody>
+                            <td>Usuario 4</td>
+                            <td><a href="rol.html">Rol</a></td>
+                            <td><a href="modificar.html">Actualizar</a></td>
+                            <td><a href="eliminar.html">Borrar</a></td>
+                        </tbody>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </div>
+</body>
+<!------------->
+
+<body>
+    <div class="modal">
+        <div class="marco">
+            <h1>Eliminación</h1>
+            <div class="cuerpo">
+                <form>
+                    <ul>
+                        <li>
+                            <label>desea proseguir con la eliminacion</label>
+                            <br>
+                            <label for="Opcion">Opcion:</label>
+                            <select id="Opcion" name="Opcion" required="">
+                                <option value="0">Seleccionar</option>
+                                <option value="1">Si</option>
+                                <option value="2">No</option>
+                            </select>
+                        </li>
+                        <br>
+                        <li>
+                            <button onclick="return eliminar();" type="submit">Aceptar</button>
+                            <button><a href="gestion.html">Cancelar</a></button>
+                        </li>
+                    </ul>
+                </form>
+                <script src="../JS/eliminar.js">
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
